@@ -1,0 +1,33 @@
+.logo{
+    color: #8d4366;
+}
+
+.back-img-1{
+    background: url('acrylic-android-wallpaper-art-1012982.jpg') no-repeat center center;
+    height: 60vh;
+    background-size:cover;
+}
+.bg-yellow{
+    background-color:#fd8b37;
+    height:30vh;
+    color: white;
+}
+.back-img-2{
+    background: url('art-art-materials-bright-743986.jpg') no-repeat center center;
+    height: 60vh;
+    background-size:cover;
+}
+.bg-height{
+    height:10vh;
+}
+.bg-yellow-2{
+    background-color:#fd8b37;
+    height:10vh;
+    color: white;
+}
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+
+}
