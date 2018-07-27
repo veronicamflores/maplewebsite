@@ -2,14 +2,34 @@
    color: black;
    font-size: 3em;
 }
-
+.bg-height{
+    height:5rem;
+}
+.wrap-art{
+    flex-wrap: wrap;
+}
+.height{
+    height:50rem;
+}
+.center-art{
+    display: flex; 
+    align-items: center;
+    justify-content:flex-start;
+    color: white;
+}
 .back-img-1{
     background: url('acrylic-android-wallpaper-art-1012982.jpg') no-repeat center center;
     background-size:cover;
+    font-family:'Permanent Marker' , cursive;
 }
 .bg-yellow{
     background-color:#fd8b37;
     color: white;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Amatic SC' , cursive;
 }
 .back-img-2{
     background: url('creased-crinkled-crumpled-479444.jpg') no-repeat center center;
@@ -25,9 +45,9 @@ ul{
     justify-content: space-between;
 
 }
-*{
+/* *{
     outline:solid red 1px;
-}
+} */
 .img-art{
     display: flex;
     flex-direction: row;
